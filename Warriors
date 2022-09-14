@@ -1,0 +1,95 @@
+# 100-days-of-code.-
+100s day ones. 
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Survey Form </title>
+     <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <h1 id="title"> Pipstronomy Survey Form</h1>
+    <p id="description">Thanks you for taking part improving our services.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"> Fullname:<input type="text" id="name" value="name" placeholder="fullname" required></label>
+        <label id="email-label"> Email:<input id="email" type="email" required placeholder="Pipstronomy@gmail.com" value="email"></label>
+        <label id="number-label"> Age:<input id="number" type="number" min="16" max="90" placeholder="16-90" value="number"></label>
+        </fieldset>
+      <fieldset>
+        <p>Pick your foavourite branch of science:</p>
+      <select id="dropdown">
+        <option value=""> Please select one</option>
+         <option value="1"> Natural Sciences</option>
+          <option value="2"> Social Sciences</option>
+           <option value="3"> Formal Sciences</option>
+        </select>
+      </fieldset>
+      <fieldset>
+<p>Tick your field of study</p>
+<label for="Psychology" class="radio-label"><input type="radio" id="Psychology" value="radio" name="study-field">Psychology</label>
+
+<label for="Engineering" class="radio-label"><input type="radio" id="Engineering" value="Engineering" name="study-field">Engineering</label>
+
+<label for="Astrophysics" class="radio-label"><input type="radio" id="Astrophysics" value="Astrophysics" name="study-field">Astrophysics</label>
+      </fieldset>
+      <fieldset>
+        <p>What are your hobbies?</p>
+        <label for="Reading">Reading</label>
+        <input type="checkbox" name="Reading" value="Reading">
+        <label for="Playing video games">Playing video games</label>
+        <input type="checkbox" name="games" value="games">
+        <label for="Singing">Singing</label>
+        <input type="checkbox" name="Singing" value="Singing">
+      </fieldset>
+      <fieldset>
+        <p>Feedback:</p>
+        <textarea id="comments" name="comments" placeholder="enter your comment" value="comments"></textarea>
+      </fieldset>
+      <fieldset>
+        <p>Thank you for filling up my survey, please submit using the button below: </p>
+        <button type="submit" id="submit" value="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+ display:block;
+ background-color:black;
+ color:white;
+ margin:0 auto;
+font-size:1.125rem;
+ font-weight: 400;
+ line-height: 1.4;
+ }
+button{
+ width:75%;
+ font-size:100%;
+ background-color: green;
+ color:white;
+ }
+textarea{
+ width:50%
+}
+main{
+ font-family: Arial;
+}
+.survey-form{
+ padding:2;
+ text-align:center;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid rgb(59, 59, 79);
+}
+
+** end of undefined **
+
